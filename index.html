@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div id="slide-number" class="slide-number"></div>
+        <img decoding="async" src="imgs/01.jpg" class="active">
+        <img decoding="async" src="imgs/02.jpg">
+        <img decoding="async" src="imgs/03.jpg">
+        <img decoding="async" src="imgs/04.jpg">
+        <img decoding="async" src="imgs/05.jpg">
+    </div>
+    <div class="slider-controls">
+        <span id="prev" class="prev">Previous</span>
+        <span id="imgs-list" class="imgs-list">
+            <ul></ul>
+        </span>
+        <span id="next" class="next">Next</span>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
